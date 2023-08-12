@@ -13,7 +13,7 @@ import BoltIcon from "@mui/icons-material/Bolt";
 import LockIcon from "@mui/icons-material/Lock";
 import Itemss from "./components/Itemss";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
-import LinearScaleIcon from "@mui/icons-material/LinearScale";
+import HelpIcon from "@mui/icons-material/Help";
 
 const Mainpage = () => {
   return (
@@ -25,6 +25,10 @@ const Mainpage = () => {
           }}
         >
           <Col style={{ background: "#202123" }} md="2">
+            <Box sx={{ position: "fixed", bottom: "30px ", right: "20px" }}>
+              <HelpIcon style={{ fill: "#8E8EA0" }} />
+            </Box>
+
             <Row>
               <Col className="py-2">
                 <Stack spacing={"15px"} direction="row">
@@ -98,7 +102,7 @@ const Mainpage = () => {
                   color={"#8E8EA0"}
                   paddingLeft={"10px"}
                 >
-                  Previous 7 Days
+                  Previous 30 Days
                 </Typography>
                 <Itemss item={"Html vs Xhtml"} />
                 <Itemss item={"Javascript"} />
