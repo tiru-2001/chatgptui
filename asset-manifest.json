@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chatgptui/static/css/main.3a4c3966.css",
+    "main.js": "/chatgptui/static/js/main.51d57a67.js",
+    "index.html": "/chatgptui/index.html",
+    "main.3a4c3966.css.map": "/chatgptui/static/css/main.3a4c3966.css.map",
+    "main.51d57a67.js.map": "/chatgptui/static/js/main.51d57a67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a4c3966.css",
+    "static/js/main.51d57a67.js"
+  ]
+}
